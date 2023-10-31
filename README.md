@@ -31,14 +31,14 @@ Command-line tool to capture clean and simple tweet snapshots.
 
 ## 🚀 Install
 The only requirement is to have [Google Chrome Browser](https://www.google.com/chrome/).
-
-
 ```sh
 npm i -g snap-tweet
 ```
 
 ### npx
 Use [npx](https://nodejs.dev/learn/the-npx-nodejs-package-runner) to run without installation.
+
+Must be built first: `npm run build`
 ```sh
 npx snap-tweet
 ```
@@ -129,7 +129,8 @@ Options:
   -s, --show-comments                   Show comments
   -t, --show-thread                     Show tweet thread
       --version                         Show version
-  -w, --width <width>                   Width of tweet (default: 550)```
+  -w, --width <width>                   Width of tweet (default: 550)
+  ```
 
 ## 🏋️‍♀️ Motivation
 It all started when I simply wanted to embed a couple tweets into a Google Doc...
@@ -151,3 +152,12 @@ _(I know, this is some pretty crazy [yak shaving](https://en.wiktionary.org/wiki
 If you have a question about usage, [ask on Discussions](https://github.com/privatenumber/snap-tweet/discussions).
 
 If you'd like to make a feature request or file a bug report, [open an Issue](https://github.com/privatenumber/snap-tweet/issues).
+
+## Note about this fork
+These are modifications originally done by @FelixDubois (https://github.com/privatenumber/snap-tweet/pull/38). Unfortunately, he deleted his fork, so this is a new fork with his work.
+
+### Added features:
+- Can specify the output filename
+- Increased the default scale by 2x
+- Fill the comment and/or like buttons
+- Show or hide the amount of comments
