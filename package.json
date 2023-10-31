@@ -1,6 +1,6 @@
 {
 	"name": "snap-tweet",
-	"version": "0.0.0-semantic-release",
+	"version": "0.0.1-semantic-release",
 	"description": "Snap a screenshot of a tweet",
 	"keywords": [
 		"twitter",
@@ -37,7 +37,7 @@
 		"chrome-remote-interface": "^0.31.2",
 		"cleye": "^1.1.0",
 		"eslint": "^8.22.0",
-		"exit-hook": "^3.0.0",
+		"exit-hook": "^3.2.0",
 		"ink": "^3.2.0",
 		"ink-task-list": "^1.1.0",
 		"open": "^8.4.0",
