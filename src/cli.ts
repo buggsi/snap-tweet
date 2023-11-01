@@ -70,6 +70,18 @@ const argv = cli({
 			description: 'Fill the comment button',
 			default: false,
 		},
+		hideFollowButton: {
+			type: Boolean,
+			alias: 'b',
+			description: 'Hide the follow button',
+			default: false
+		},
+		scale:{
+			type: Number,
+			alias: 'x',
+			description: 'Scale of tweet (multiplier to increase the resolution)',
+			default: 1,
+		}
 	},
 
 	help: {

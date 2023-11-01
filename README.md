@@ -123,9 +123,12 @@ Options:
   -c, --fill-comment-button             Fill the comment button
   -l, --fill-like-button                Fill the like button
   -h, --help                            Show help
+  -b, --hide-follow-button              Hide the follow button
       --locale <locale>                 Locale (default: "en")
   -o, --output-dir <path>               Tweet screenshot output directory
   -f, --output-filename <string>        Tweet screenshot output filename
+  -x, --scale <number>                  Scale of tweet (multiplier to increase the resolution)     
+                                        (default: 1)
   -s, --show-comments                   Show comments
   -t, --show-thread                     Show tweet thread
       --version                         Show version
@@ -158,6 +161,6 @@ These are modifications originally done by @FelixDubois (https://github.com/priv
 
 ### Added features:
 - Can specify the output filename
-- Increased the default scale by 2x
+- Scaling parameter to increase resolution
 - Fill the comment and/or like buttons
 - Show or hide the amount of comments
